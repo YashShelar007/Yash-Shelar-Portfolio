@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -50,7 +51,7 @@ hr {
     list-style: none;
 }
 
-.list-inline-inline {
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
@@ -95,6 +96,7 @@ hr {
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -117,3 +119,19 @@ hr {
 
 /** footer **/
 
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
